@@ -1,0 +1,5 @@
+#!/bin/sh
+
+mkdir -p /tmp/mtp
+/usr/local/bin/simple-mtpfs -o rw,local,allow_other,volname="Media Device",volicon="/System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/com.apple.ipod-touch-4-white.icns" -f /tmp/mtp
+sleep 10
